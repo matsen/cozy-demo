@@ -15,7 +15,7 @@ WORKDIR /root
 RUN git config --global http.sslverify false
 RUN git clone https://github.com/fredhutchio/fredhutch.io.git
 
-RUN wget https://raw.githubusercontent.com/junegunn/fzf/master/shell/key-bindings.bash -o .fzf.bash
+RUN wget --no-check-certificate https://raw.githubusercontent.com/junegunn/fzf/master/shell/key-bindings.bash -O .fzf.bash
 
 RUN mkdir -p /root/.local/share/autojump/
 RUN mkdir -p /root/cats/siamese-mostpopular
