@@ -1,6 +1,9 @@
 # Activate autojump
 source /usr/share/autojump/autojump.sh
 
+# Activate fzf
+source ~/.fzf.bash
+
 # Set up Bash prompt to include git status
 source ~/.git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=1

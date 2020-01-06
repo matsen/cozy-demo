@@ -1,4 +1,4 @@
 50.0	/root/cats/siamese-mostpopular
 30.0	/root/cats/siamese-lesspopular
-40.0	/root/cats/maine-coon
+40.0	/root/cats/bengal
 10.0	/root/work
