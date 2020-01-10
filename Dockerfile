@@ -9,6 +9,7 @@ RUN apt-get update -q && \
         fzf \
         silversearcher-ag \
         tmux \
+        telnet \
         wget
 
 WORKDIR /root
