@@ -4,12 +4,14 @@ RUN apt-get update -q && \
     apt-get install -y -q --no-install-recommends \
         autojump \
         fd-find \
-        less \
-        git \
         fzf \
+        git \
+        htop \
+        less \
         silversearcher-ag \
-        tmux \
         telnet \
+        tmux \
+        vim \
         wget
 
 WORKDIR /root
